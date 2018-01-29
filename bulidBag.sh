@@ -12,21 +12,21 @@
 # 设置是使用fir上传(改成fir)还是蒲公英上传pgyer(改成pgyer) --
 isFir="fir"
 # 换算成自己主文件路径 --（使用绝对路径报错，不知道为何）--
-desktop="/Users/SHyH5"
+desktop="/Users/自己的用户名"
 # .app 文件的路径
-appFileFullPath="$desktop/Library/Developer/Xcode/DerivedData/Crabs_star-ecmbwynyqwascabsqciprgvdohnj/Build/Products/Debug-iphoneos/Crabs_star.app"
+appFileFullPath="自己的.app文件路径，如下"
 #appFileFullPath="$desktop/Library/Developer/Xcode/DerivedData/FirTextExmple-aqjhktrtgzvszeevtcsdjrypkvfs/Build/Products/Debug-iphoneos/FirTextExmple.app"
 
 # 蒲公英的参数： 自行填写自己账号对应的key值  上传文档地址：https://www.pgyer.com/doc/api#uploadApp
-uKey="4cd7a6d5fe0fe56b0256bb3114e880a2"
-apiKey="3178c9431a6eb6b0dda9cea0f6b25ba5"
+uKey="自己的uKey，获取方式上面链接"
+apiKey="自己的apiKey，获取方式上面链接"
 # 蒲公英需要填写的版本描述
 updateDescription="这是一个测试路径的版本"
 
 # 上传到fir时，运行脚本之前要先登录一下：fir login API Token。 出现成功字段即可
 # fir的参数:
 #apiToken="62284d44d88e34c013e481184b409fb8"
-apiToken="4995a8a6c0ae1b57fba71c2c50126e57"
+apiToken="自己的apiToken"
 #
 projectDir="这是一个上传测试fir的脚本描述"
 # **************************************************
